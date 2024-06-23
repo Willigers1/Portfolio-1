@@ -90,9 +90,8 @@ body{
 
 .home{
     height: 100vh;
-    background: url(https://images.unsplash.com/photo-1550418772-dab2859bd5f4?q=80&w=1298&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat;
+    background: url(https://images.unsplash.com/photo-1718967917204-b359a7b6a742?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat;
     background-size: cover;
-    background-position: topce;
     display: flex;
     align-items: center;
     padding: 0 10%;
@@ -142,6 +141,30 @@ body{
 }
 
 
+
+.hobbies h2{
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(12, 122, 199);
+}
+
+
+
+.hobbies p{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: aqua;
+}
+
+
+
+.hobbies li{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 
 .btn-box a{
@@ -209,6 +232,12 @@ body{
 
 
 
+.btn-box{
+    margin-top: 30px;
+}
+
+
+
 .btn-box a:hover::before {
     width: 100%;
 }
@@ -262,3 +291,4 @@ body{
 #about-toggle:checked+.about{
     display: block;
 }
+
