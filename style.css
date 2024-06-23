@@ -146,6 +146,7 @@ body{
     font-size: 40px;
     font-weight: 800;
     color: rgb(12, 122, 199);
+    line-height: 1.5;
 }
 
 
@@ -156,6 +157,7 @@ body{
     font-size: 25px;
     font-weight: 400;
     color: aqua;
+    margin: 20px 0px 40px;
 }
 
 
@@ -163,6 +165,28 @@ body{
 .hobbies li{
     font-size: 20px;
     font-weight: 500;
+}
+
+
+
+.destination h3{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.5;
+}
+
+.destination p{
+    font-size: 25px;
+    font-weight: 800;
+    color: aquamarine;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.travel li{
+    font-size: 20px;
 }
 
 
